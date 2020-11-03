@@ -18,7 +18,7 @@ Vorm Analyse Tool is uitgegroeid van een klein bedijfje die zich bezig hield met
 ## Installatie
 1. Open je console in de gewenste map waar je het project wilt installeren.
 2. Type vervolgens dit:
-    - `git clone https://github.com/dominiquetoonen/AVANS-ELU-2.1-VORMANALYSETOOL.git`
+    - `git clone https://github.com/youness-arsalane/proftaak2.1.git`
 3. Deze applicatie maakt gebruik van een MySQL database dus zorg dat je die beschikbaar hebt. Gebruik hier bijvoorbeeld [XAMPP](https://www.apachefriends.org/download.html) voor.
 4. Als je deze connectie hebt omgezet, is het belangrijk dat je de benodigde database structuur implementeerd in je MySQL. Deze kun je vinden in de source van `java/docs/db/vat_calculator.sql`.
 5. Hierna moet je je database gegevens invullen in de `MySQLMapper` klasse - deze kun je vinden in de source van `java/mappers`.
