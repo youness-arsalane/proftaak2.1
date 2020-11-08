@@ -14,6 +14,10 @@ abstract public class MySQLMapper implements MapperInterface {
     private static final String username    = "root";
     private static final String password    = "";
 
+    public String getTableName() {
+        return "shapes";
+    }
+
     @Override
     public ArrayList<Shape> all() {
         ArrayList<Shape> results = new ArrayList<>();

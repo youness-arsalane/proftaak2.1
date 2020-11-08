@@ -1,8 +1,9 @@
 package models;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-abstract public class Shape extends AbstractModel {
+abstract public class Shape extends AbstractModel implements Serializable {
     public enum Companion {
         CUBE("Blok"),
         CYLINDER("Cylinder"),
